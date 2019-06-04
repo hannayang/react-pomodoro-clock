@@ -19,6 +19,10 @@ i {
   cursor: pointer; 
 }
 
+span {
+  user-select: none;
+}
+
 /*-------------- Intro section ------------------*/
 .intro h1 {
   padding: 40px 0 15px 0; 
