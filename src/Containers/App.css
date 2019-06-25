@@ -156,9 +156,15 @@ footer {
     width: 400px; 
     display: block; 
   }
+
   .work-length-control {
-    margin: 20px 0; 
+    margin: 20px auto; 
   }
+
+  .break-length-control {
+    margin: 0 auto; 
+  }
+
   .show-instructions {
     width: 90%; 
   }
