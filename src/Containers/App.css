@@ -147,7 +147,7 @@ span {
 footer {
   color: rgb(223, 152, 20); 
   font-size: 14px; 
-  padding-bottom: 20px; 
+  padding-bottom: 40px; 
 }
 
 /*------------------@media--------------------------------*/
@@ -167,5 +167,97 @@ footer {
 
   .show-instructions {
     width: 90%; 
+  }
+}
+
+@media(min-height: 670px) {
+  .intro h1 {
+    padding-top: 80px; 
+  }
+  .intro p {
+    padding-bottom: 25px; 
+  }
+  .length-control {
+    margin: 40px auto; 
+  }
+  .timer {
+    margin: 60px auto 40px auto; 
+  }
+  .play-buttons i {
+    font-size: 45px; 
+    margin: 0 20px 30px 20px; 
+  }
+  footer {
+    font-size: 18px; 
+    padding: 90px 0 80px 0; 
+  }
+}
+
+@media(min-height: 950px) {
+  .intro h1 {
+    font-size: 65px; 
+    padding-top: 120px; 
+  }
+  .intro p {
+    font-size: 20px; 
+    padding: 20px 0 60px 0; 
+  }
+  .length-control {
+    margin: 70px auto; 
+  }
+  .timer {
+    margin: 80px auto 60px auto; 
+  }
+  .play-buttons i {
+    font-size: 60px; 
+    margin: 0 25px 30px 25px; 
+  }
+  footer {
+    padding: 120px 0 120px 0; 
+  }
+}
+
+@media(min-height: 1230px) and (min-width: 2000px) {
+  .intro h1 {
+    font-size: 80px; 
+    padding-top: 180px; 
+  }
+  .intro p {
+    font-size: 30px; 
+    padding: 20px 0 60px 0; 
+  }
+  .intro button {
+    font-size: 24px; 
+  }
+  .show-instructions {
+    font-size: 28px; 
+  }
+  .length-control {
+    width: 740px; 
+    padding-top: 50px; 
+  }
+  .length-control h2 {
+    font-size: 45px; 
+  } 
+  .length-control i {
+    font-size: 55px; 
+  }
+  .length-control span {
+    font-size: 50px; 
+    width: 100px; 
+  }
+  .timer {
+    width: 500px; 
+    margin: 140px auto 140px auto; 
+  }
+  .timer-title h3 {
+    font-size: 50px; 
+  }
+  .remaining-time {
+    font-size: 100px; 
+  }
+  footer {
+    padding: 150px 0 150px 0; 
+    font-size: 28px; 
   }
 }
