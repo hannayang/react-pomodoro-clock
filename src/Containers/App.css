@@ -217,7 +217,7 @@ footer {
   }
 }
 
-@media(min-height: 1230px) and (min-width: 2000px) {
+@media(min-width: 2000px) {
   .intro h1 {
     font-size: 80px; 
     padding-top: 180px; 
@@ -258,6 +258,13 @@ footer {
   }
   footer {
     padding: 150px 0 150px 0; 
+    font-size: 28px; 
+  }
+}
+
+@media(min-height: 1230px) {
+  footer {
+    padding: 190px 0 190px 0; 
     font-size: 28px; 
   }
 }
